@@ -1,21 +1,11 @@
-<!doctype html>
-<html class="scroll-smooth">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vanessa's Profile</title>
-  <link rel="shortcut icon" href="Assets/Logo.png" type="image/x-icon">
-  @vite('resources/css/app.css')
-  <link rel="stylesheet" href="style.css">
+@extends('master')
 
-  <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+@section('Title')
+    Vanessa's Profile
+@endsection
 
-</head>
-<body>
-  <div class="flex flex-col bg-zinc-100">
+@section('Content')
+<div class="flex flex-col bg-zinc-100">
     <div id="navbar" class="dark:bg-lime-950 flex flex-row items-center fixed w-full mb-[10.75vw] z-50">
       <a href="#landingPage"><img class="mx-[0.5vw] h-[6.5vw] w-[6.5vw]"src="Assets/Logo.png" alt=""></a>
       <p class="text-white font-fasthand text-[2.1vw]">Vanessa's Profile</p>
@@ -44,12 +34,12 @@
           </div>
       </section>
     </div>
-    
+
     <div id="aboutMe" class="z-0">
       <div id="bgAbout" class="bg-cover  bg-no-repeat z-0 w-full h-[45vw]" style="background-image: url('Assets/Background-AboutMe.png');">
         <section class="pt-[6.5vw] w-full h-[50vw]">
           <p class="ml-[5vw] w-[30vw] text-[6vw] z-0 font-another">About Me</p>
-  
+
           <div class="flex flex-row">
             <div class="flex flex-row">
               <div class="w-[33vw] h-[50vw] flex flex-col ml-[1.5vw] text-indigo-800">
@@ -70,7 +60,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <div class="w-[23vw] h-[28vw] text-[1.1vw] mt-[6vw] ml-[-3vw] text-indigo-800">
                 <h1 class="text-[2vw] font-dosis font-semibold">Mini Details</h1>
                 <div class="mt-[0.8vw] flex flex-row items-center">
@@ -89,7 +79,7 @@
                       <p>(July 7th)</p>
                     </div>
                 </div>
-  
+
                 <div class="mt-[0.3vw] flex flex-row items-center ml-[0.1vw]">
                   <svg class="mr-[0.5vw]" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9A3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42c-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3a3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.536 5.536 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13v-1.75M0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9c-.59.68-.95 1.62-.95 2.65V20H0m24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65c2.56.34 4.45 1.51 4.45 2.9V20Z"/></svg>
                   <p class="ml-[0.1vw]">Family of 5</p>
@@ -105,7 +95,7 @@
               </div>
             </div>
 
-            
+
             <div class="flex flex-col z-0">
               <div class="flex flex-row">
                 <div class="w-[27vw] h-[17vw] mt-[-6vw] text-[1.1vw] ml-[7vw] mr-[-22vw]">
@@ -120,7 +110,7 @@
                   • Painting
                 </p>
               </div>
-              
+
               <div class="w-[21vw] h-[17vw] text-[1.1vw] text-right ml-[9vw] mt-[-6vw]">
                 <h1 class="text-[2vw] font-dosis font-semibold">Experiences</h1>
                 <p class="text-[1.2vw] font-semibold mt-[0.8vw]">2016 - 2019</p>
@@ -132,21 +122,37 @@
               </div>
             </div>
             <img class="cursor-pointer w-[8vw] h-[8vw] mt-[-4vw] z-10 rotate--60 hover:animate-pulse" src="Assets/Miku.png" alt="">
-            
+
             <div class="flex flex-col ml-[-7vw] mt-[-1.3vw] text-white">
-              <h1 class="text-[2vw] mt-[4.8vw] w-[48vw] text-center font-dosis font-semibold">Achievements</h1>
-                <div class="flex flex-row mt-[2vw]">
-                  <div class="w-[24vw] h-[5vw] text-[1.1vw] text-white">
-                    <p class="text-center">• 3rd place - women's 200m PORKOT [2019] •</p>
-                    <p class="mt-[0.5vw] text-center">• 2nd place - women's 4 x 400m PORKOT [2019] •</p>
-                  </div>
-                  <div class="w-[24vw] h-[5vw] text-[1.1vw] text-white text-center">
-                    <p>• 2nd place - women's 4 x 100m PORKOT [2019] •</p>
-                    <p class="mt-[0.5vw]">• 3rd place - women's 100m O2SN [2020] •</p>
-                  </div>
+              <h1 class="text-[2vw] mt-[3.8vw] w-[48vw] text-center font-dosis font-semibold">Achievements</h1>
+              <div class="flex flex-row mt-[2vw] flex-wrap w-[54vw] h-[5vw] ml-[-3.5vw] justify-center text-[1.1vw] items-center text-black ">
+                    @foreach ($achievements as $ach)
+                        @if ($ach['rank'] == '3rd')
+                            <p class="text-transparent">.</p>
+                            <a href="/details/{{$ach['range']}}" class="bg-cyan-100 rounded-xl h-[2.3vw] flex flex-row items-center">
+                                <p class="text-transparent">•.</p>
+                                <p>{{$ach['rank']}} - women's {{$ach['range']}} {{$ach['event']}} {{$ach['year']}}</p>
+                                <p class="text-transparent">•.</p>
+                            </a>
+                            <p class="text-transparent">.</p>
+
+
+                        @elseif ($ach['rank'] == '2nd')
+                            <p class="text-transparent">.</p>
+                            <a href="/details/{{$ach['range']}}" class="bg-purple-300 rounded-xl h-[2.3vw] flex flex-row items-center">
+                                <p class="text-transparent">•.</p>
+                                <p>{{$ach['rank']}} - women's {{$ach['range']}} {{$ach['event']}} {{$ach['year']}}</p>
+                                <p class="text-transparent">•.</p>
+                            </a>
+                            <p class="text-transparent">.</p>
+                        @endif
+
+
+                    @endforeach
+
                 </div>
               </div>
-              
+
             </div>
           </div>
         </section>
@@ -193,10 +199,10 @@
             </div>
           </div>
         </div>
-        
+
       </section>
     </div>
-    
+
 
     <div class="w-full h-[28vw] bg-gradient-to-br from-[#AA77FF] via-[#97DEFF] text-[1.3vw]">
       <section id="reachMe" class="pt-[6.5vw]">
@@ -230,9 +236,6 @@
         <img class="cursor-pointer w-[9vw] h-[9vw] mt-[-17vw] ml-[15vw] hover:-translate-y-1/2 hover:transition duration-1000" src="Assets/Mafu-2.png" alt="">
       </section>
     </div>
-    
+
   </div>
-  
-  
-</body>
-</html>
+@endsection

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AchievementController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('profile');
-});
+
+Route::get('/', [AchievementController::class, 'index']);
+
+Route::get('/achievement', [AchievementController::class, 'achiv']);
+
+Route::get('/details/{range}', [AchievementController::class, 'detail']);

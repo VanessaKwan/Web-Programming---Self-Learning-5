@@ -1,0 +1,9 @@
+* {
+    margin : 0vw;
+    padding : 0vw;
+}
+
+#bgAbout{
+    z-index: 0;
+    background-position-y: 6vw;
+}

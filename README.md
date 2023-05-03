@@ -49,8 +49,24 @@ Teknologi yang saya gunakan untuk membuat website ini adalah :
 ![Gambar 10](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Run%208.png)  
 
 # Tampilan Website
+## Profile
 Berikut adalah tampilan website saya secara menyeluruh
 ![Gambar 11](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Website%20image.png)
+
+## Achievement's Details
+Halaman ini berisi detail dari prestasi di bagian Achievement yang akan muncul ketika salah satunya di-klik. Bagian ini menerapkan materi controller, if, foreach, extend, yield, dan route.
+
+#### 200m Putri [2019]
+![Gambar 12](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%201.png)
+
+#### 4 x 400m Putri [2019]
+![Gambar 13](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%202.png)
+
+#### 4 x 100m Putri [2019]
+![Gambar 14](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%203.png)
+
+#### 100m Putri [2019]
+![Gambar 15](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%204.png)
 
 ## Navigation Bar
 Merupakan sebuah bar yang digunakan untuk navigasi ke bagian-bagian yang ada pada halaman.
@@ -85,20 +101,6 @@ https://user-images.githubusercontent.com/114204591/235823296-d88c9f80-235f-41ee
 
 
 
-### Achievement's Details
-Halaman ini berisi detail dari prestasi di bagian Achievement yang akan muncul ketika salah satunya di-klik. Bagian ini menerapkan materi controller, if, foreach, extend, yield, dan route.
-
-#### 200m Putri [2019]
-![Gambar 12](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%201.png)
-
-#### 4 x 400m Putri [2019]
-![Gambar 13](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%202.png)
-
-#### 4 x 100m Putri [2019]
-![Gambar 14](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%203.png)
-
-#### 100m Putri [2019]
-![Gambar 15](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Achivement%20Details%204.png)
 
 
 ## Skills

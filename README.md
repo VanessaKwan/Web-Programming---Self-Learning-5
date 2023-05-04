@@ -72,7 +72,6 @@ Halaman ini berisi detail dari prestasi di bagian Achievement yang akan muncul k
 Merupakan sebuah bar yang digunakan untuk navigasi ke bagian-bagian yang ada pada halaman.
 
 
-
 https://user-images.githubusercontent.com/114204591/235823440-615d4ccd-1cd0-4fbe-b5b9-7645a87f694d.mp4
 
 
@@ -125,3 +124,6 @@ Berikut adalah video yang berisi tampilan webiste secara menyeluruh
 https://user-images.githubusercontent.com/114204591/235821823-6b4da488-13d4-4738-8167-355abe18cd23.mp4
 
 
+## GIF
+Berikut adalah GIF dari tugas Self Learning 5
+![Gif](https://github.com/VanessaKwan/Web-Programming---Self-Learning-5/blob/main/Web%20Documentation/Web.gif)
